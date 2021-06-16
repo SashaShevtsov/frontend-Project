@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head> 
+		<meta charset="UTF-8">
+        <style>
+            input:invalid {
+                border: 2px dashed red;
+            }
+            input:valid {
+                border: 2px solid black;
+            }
+        </style>
+		<title>Second task page</title> 
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body style="background-color:powderblue">
+        <iframe src="https://www.w3schools.com" style="height: 500px;width: 800px;border: 2px;" title="W3schools frame"></iframe>
+        <form>
+            <fieldset>
+                <legend>Your info</legend>
+                <label for="nickname">Nickname:</label>
+                <input type="text" id="nickname" name="nickname"><br>
+                <label for="teams">Pick your favourite football team(s):</label>
+                <select id="teams" name="teams" multiple>
+                    <optgroup label="Spanish teams">
+                        <option value="real">Real Madrid</option>
+                        <option value="barsa">Barselona</option>
+                    </optgroup>
+                    <optgroup label="English teams">
+                        <option value="chelsea">Chelsea</option>
+                        <option value="liverpool">Liverpool</option>
+                    </optgroup>
+                    <optgroup label="French teams">
+                        <option value="psg">PSG</option>
+                        <option value="monaco">AS Monaco</option>
+                    </optgroup>
+                    <optgroup label="German teams">
+                        <option value="bayern">Bayern</option>
+                        <option value="borussia">Borussia Dortmund</option>
+                    </optgroup>
+                </select><br>
+                <label>Choose your country:</label>
+                <input list="countries" name="countries">
+                <datalist id="countries">
+                    <option value="Belarus">
+                    <option value="Latvia">
+                    <option value="Lithuania">
+                    <option value="Poland">
+                    <option value="Russia">
+                    <option value="Other">
+                </datalist>
+            </fieldset><br>
+            <textarea name="message" rows="15" cols="50">Write something about yourself.</textarea><br>
+            <output name="res" for="nickname countries"></output><br><br>
+            <button id="print" type="button" onclick="res.value='Your nickname is '+nickname.value+' and you are from '+countries.value;">Print</button><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+        </form>
+    </body>
+</html>
