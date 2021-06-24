@@ -1,0 +1,245 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head> 
+		<meta charset="UTF-8"> 
+		<title>Rating</title> 
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+		<script src="script.js"></script> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+        <header>
+            <div class="rectangle1">
+                <div class="rectangle2">
+                    <span class="iconify booklogo" data-inline="false" data-icon="icomoon-free:book"></span>
+                    <p class='bookspace'>BOOK SPACE</p>
+                </div>
+                <nav>
+                    <a class="menu-item menu-item-color" href="main.html">КНИГИ</a>
+                    <a class="menu-item menu-main-item-color" href="rate.html">РЕЙТИНГ КНИГ</a>
+                    <a class="menu-item menu-item-color" href="contacts.html">КОНТАКТЫ</a>
+                </nav>
+                <form class="search-form">
+                    <div class="search-container">
+                        <i class="iconify searchlogo" data-inline="false" data-icon="ant-design:search-outlined"></i>
+                        <input class="search-input" id="search" name="search" placeholder="Поиск">
+                    </div>
+                </form>
+            </div>
+        </header>
+        <aside>
+            <div class="rectangle4">
+                <div class="rectangle6">
+                    <a class="standard-text aside-header" href="rate.html">Рeйтинг книг</a>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Раньше девочки носили платья в горошек<br>Катя Майорова</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">5,0</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Герои книг на приеме у психотерапевта<br>Клаудия Хохбрунн, Андера Боттлингер</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">5,0</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Прислуга<br>Кэтринн Стокетт</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">5,0</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Зеленая миля<br>Стивен Кинг</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">5,0</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Властелин Колец. Возвращение короля<br>Дж. Р. Р. Толкин</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,9</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Цветы для Элджерона<br>Дэниэл Киз</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,9</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Симон<br>Наринэ Абгарян</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,5</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Тетрадь в клеточку<br>Микита Франко</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,5</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Пустые холмы<br>Марина Козинаки, Софи Авдюхина</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,4</p>
+                    </div>
+                </div>
+                <div class="last-rating-item">
+                    <a class="aside-book" href="#">Книжные хроники Анимант Крамб<br>Лин Рина</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news-box">
+                <div class="rectangle6">
+                    <a class="standard-text aside-header" href="#">Новости</a>
+                </div>
+                <p class="aside-news">25 мая 2021, 19:00<br>Презентация новой книги Натали Ратковски “Художник. Как мыслят творческие люди” в Московском Доме Книги на Новом Арбате, 8.</p>
+            </div>
+        </aside>
+        <main>
+            <section class="main-section">
+                <h2 class="main-header">Рейтинг книг</h2>
+                <table id="rating-table">
+                    <colgroup>
+                        <col class="first-rate-column">
+                        <col class="second-rate-column">
+                        <col class="third-rate-column">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <td>Название и автор книги</td>
+                            <td>Год</td>
+                            <td>Рейтинг</td>
+                        </tr>
+                    </thead>
+                    <tbody id="rating-table-body">
+                        <tr class="rating-table-odd-color">
+                            <td>
+                                <a class="book-rate-container" href="#">
+                                    <img class="book-small-cover" src="covers/Katya_Majorova__Ranshe_devochki_nosili_platya_v_goroshek.png">
+                                    <p class="book-rate">
+                                        <span class="book-name">Раньше девочки носили платья в горошек</span><br>
+                                        <span class="book-author">Катя Майорова</span>
+                                    </p>
+                                </a>
+                            </td>
+                            <td class="aligned-year">2020</td>
+                            <td class="aligned-value">
+                                <div class="rate-value-container">
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="rating-value-big">5,0</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="rating-table-even-color">
+                            <td>
+                                <a class="book-rate-container" href="#">
+                                    <img class="book-small-cover" src="covers/__Geroi_knig_na_prieme_u_psihoterapevta.png">
+                                    <p class="book-rate">
+                                        <span class="book-name">Герои книг на приеме у психотерапевта</span><br>
+                                        <span class="book-author">Клаудия Хохбрунн, Андера Боттлингер</span>
+                                    </p>
+                                </a>
+                            </td>
+                            <td class="aligned-year">2021</td>
+                            <td class="aligned-value">
+                                <div class="rate-value-container">
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="rating-value-big">5,0</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="rating-table-odd-color">
+                            <td>
+                                <a class="book-rate-container" href="#">
+                                    <img class="book-small-cover" src="covers/Ketrin_Stokett__Prisluga.png">
+                                    <p class="book-rate">
+                                        <span class="book-name">Прислуга</span><br>
+                                        <span class="book-author">Кэтринн Стокетт</span>
+                                    </p>
+                                </a>
+                            </td>
+                            <td class="aligned-year">2015</td>
+                            <td class="aligned-value">
+                                <div class="rate-value-container">
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="rating-value-big">5,0</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="rating-table-even-color">
+                            <td>
+                                <a class="book-rate-container" href="#">
+                                    <img class="book-small-cover" src="covers/Dzhon_R._R.png">
+                                    <p class="book-rate">
+                                        <span class="book-name">Властелин колец. Возвращение короля</span><br>
+                                        <span class="book-author">Дж. Р. Р. Толкин</span>
+                                    </p>
+                                </a>
+                            </td>
+                            <td class="aligned-year">2014</td>
+                            <td class="aligned-value">
+                                <div class="rate-value-container">
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="rating-value-big">5,0</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="rating-table-odd-color">
+                            <td>
+                                <a class="book-rate-container" href="#">
+                                    <img class="book-small-cover" src="covers/Deniel_Kiz__Tsvety_dlya_Eldzhernona.png">
+                                    <p class="book-rate">
+                                        <span class="book-name">Цветы для Элджерона</span><br>
+                                        <span class="book-author">Дэниэл Киз</span>
+                                    </p>
+                                </a>
+                            </td>
+                            <td class="aligned-year">1999</td>
+                            <td class="aligned-value">
+                                <div class="rate-value-container">
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-fill"></span>
+                                    <span class="iconify starbiglogo" data-inline="false" data-icon="bi:star-half"></span>
+                                    <span class="rating-value-big">4,9</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+	</body>
+</html>

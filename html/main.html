@@ -2,47 +2,214 @@
 <html lang="en">
 	<head> 
 		<meta charset="UTF-8"> 
-		<title>Library</title> 
-		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<title>Main page</title> 
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 		<script src="script.js"></script> 
+        <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
         <header>
-            <h1>Books</h1>
+            <div class="rectangle1">
+                <div class="rectangle2">
+                    <span class="iconify booklogo" data-inline="false" data-icon="icomoon-free:book"></span>
+                    <p class='bookspace'>BOOK SPACE</p>
+                </div>
+                <nav>
+                    <a class="menu-item menu-main-item-color" href="main.html">КНИГИ</a>
+                    <a class="menu-item menu-item-color" href="rate.html">РЕЙТИНГ КНИГ</a>
+                    <a class="menu-item menu-item-color" href="contacts.html">КОНТАКТЫ</a>
+                </nav>
+                <form class="search-form">
+                    <div class="search-container">
+                        <i class="iconify searchlogo" data-inline="false" data-icon="ant-design:search-outlined"></i>
+                        <input class="search-input" id="search" name="search" placeholder="Поиск">
+                    </div>
+                </form>
+            </div>
         </header>
-        <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Library</a></li>
-              <li><a href="#">About</a></li>
-            </ul>
-        </nav> 
+        <aside>
+            <div class="rectangle4">
+                <div class="rectangle6">
+                    <a class="standard-text aside-header" href="rate.html">Рeйтинг книг</a>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Раньше девочки носили платья в горошек<br>Катя Майорова</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">5,0</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Герои книг на приеме у психотерапевта<br>Клаудия Хохбрунн, Андера Боттлингер</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">5,0</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Прислуга<br>Кэтринн Стокетт</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">5,0</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Зеленая миля<br>Стивен Кинг</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">5,0</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Властелин Колец. Возвращение короля<br>Дж. Р. Р. Толкин</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,9</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Цветы для Элджерона<br>Дэниэл Киз</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,9</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Симон<br>Наринэ Абгарян</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,5</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Тетрадь в клеточку<br>Микита Франко</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,5</p>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <a class="aside-book" href="#">Пустые холмы<br>Марина Козинаки, Софи Авдюхина</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,4</p>
+                    </div>
+                </div>
+                <div class="last-rating-item">
+                    <a class="aside-book" href="#">Книжные хроники Анимант Крамб<br>Лин Рина</a>
+                    <div class="rating-value-container">
+                        <span class="iconify starlogo" data-inline="false" data-icon="bi:star-fill"></span>
+                        <p class="rating-value">4,2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news-box">
+                <div class="rectangle6">
+                    <a class="standard-text aside-header" href="#">Новости</a>
+                </div>
+                <p class="aside-news">25 мая 2021, 19:00<br>Презентация новой книги Натали Ратковски “Художник. Как мыслят творческие люди” в Московском Доме Книги на Новом Арбате, 8.</p>
+            </div>
+        </aside>
         <main>
-            <article>
-                <h2>Local library</h2>
-                <section>
-                    <h3>Welcome!</h3>
-                    <p>On this site you will find many books of different genres. All of them are properly orginized and sorted.</p>
-                </section>
-                <section>
-                    <h3>Don't waste any time!</h3>
-                    <p>Click "Library" at the top of the page and start browsing through the books right away. You can also use "Genres" section to access books of the specific genre.</p>
-                </section>
+            <section class="main-section">
+                <h2 class="main-header">Новые книги</h2>
+                <div class="book-row-container">
+                    <a class="book-container" href="#">
+                        <img class="book-cover" src="covers/Narine_Abgaryan__Simon.jpg">
+                        <p class="book">
+                            <span class="book-name">Симон</span><br>
+                            <span class="book-author">Наринэ Абгорян</span>
+                        </p>
+                    </a>
+                    <a class="book-container" href="#">
+                        <img class="book-cover" src="covers/Mikita_Franko__Tetrad_v_kletochku.png">
+                        <p class="book">
+                            <span class="book-name">Тетрадь в клеточку</span><br>
+                            <span class="book-author">Микита Франко</span>
+                        </p>
+                    </a>
+                    <a class="book-container" href="#">
+                        <img class="book-cover" src="covers/Marina_Kozinaki_Sofi_Avdyuhina__Pustye_Holmy.png">
+                        <p class="book">
+                            <span class="book-name">Пустые холмы</span><br>
+                            <span class="book-author">Марина Козинаки, Софи Авдюхина</span>
+                        </p>
+                    </a>
+                    <a class="book-container" href="#">
+                        <img class="book-cover" src="covers/Lin_Rina__Knizhnye_hroniki_Animant_Kramb.png">
+                        <p class="book">
+                            <span class="book-name">Книжные хроники Анимант Крамб</span><br>
+                            <span class="book-author">Лин Рина</span>
+                        </p>
+                    </a>
+                </div>
+            </section>
+            <section class="main-section">
+                <h2 class="main-header">Бестселлеры</h2>
+                <div class="book-row-container">
+                    <a class="book-container" href="#">
+                        <img class="book-cover" src="covers/So_Mie__Edinstvennyj_rebjonok.png">
+                        <p class="book">
+                            <span class="book-name">Единственный ребенок</span><br>
+                            <span class="book-author">Со Миэ</span>
+                        </p>
+                    </a>
+                    <a class="book-container" href="#">
+                        <img class="book-cover" src="covers/Mara_Vulf__Sestra_zvjozd.png">
+                        <p class="book">
+                            <span class="book-name">Сестра звезд</span><br>
+                            <span class="book-author">Мара Вульф</span>
+                        </p>
+                    </a>
+                    <a class="book-container" href="#">
+                        <img class="book-cover" src="covers/Stiven_King__Zelenaya_milya.png">
+                        <p class="book">
+                            <span class="book-name">Зеленая Миля</span><br>
+                            <span class="book-author">Стивен Кинг</span>
+                        </p>
+                    </a>
+                    <a class="book-container" href="books/clara_i_solntse.html">
+                        <img class="book-cover" src="covers/Kadzuo_Isiguro__Klara_i_Solntse.png">
+                        <p class="book">
+                            <span class="book-name">Клара и солнце</span><br>
+                            <span class="book-author">Кадзуо Исигуро</span>
+                        </p>
+                    </a>
+                </div>
+            </section>
+            <article id="article-main">
+                <h2 class="main-header">О жизни и творчестве писателей</h2>
+                <ol class="article-text">
+                    <li>
+                        <p>
+                            <span class="article-first-sentence">Две любви и один кошмар Маргарет Митчелл: Почему автор «Унесённых ветром» спала с пистолетом под подушкой.</span> 
+                            Имя Маргарет Митчелл было овеяно легендами ещё при её жизни, а на следующий день после её трагической гибели все материалы и 
+                            ранние рукописи «Унесённых ветром» были сожжены. Супруг писательницы, согласно её завещанию, оставил только те материалы, 
+                            которые делали авторство его жены неоспоримым. Джон Марш стал вторым мужем Маргарет Митчелл, и ему в течение двух лет 
+                            приходилось мириться с тем, что супруга не расставалась с пистолетом даже по ночам.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="article-first-sentence">"Против меня был целый мир — и я один". О чем писал Михаил Булгаков.</span> 
+                            Сейчас Михаил Булгаков — один из самых любимых всеми авторов. Но при жизни писателя все было по-другому: его работы запрещались, пьесы не ставились, печатались лишь некоторые рассказы.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="article-first-sentence">Профессорка одиночества. Евгения Некрасова об Отессе Мошфег.</span> 
+                            Исполнилось 40 лет Отессе Мошфег — одной из самых ярких писательниц поколения. По просьбе «Афиши Daily» писательница Евгения Некрасова рассказывает о ней — и поздравляет с днем рождения.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="article-first-sentence">Две гениальные сестры, две звезды Серебряного века.</span> 
+                            Они были безумно популярны, их произведениями зачитывались, они навсегда вошли в историю русской литературы начала двадцатого века. 
+                            Обе были наделены неординарным литературным талантом. Серебряный век без них имел бы другое лицо. Но при этом, странное дело, мало кто знает, что они были родными сестрами.
+                        </p>
+                    </li>
+                </ol>
             </article>
         </main>
-        <aside>
-            <h2>Genres</h2>
-    
-            <ul>
-              <li><a href="#">Fantasy</a></li>
-              <li><a href="#">Classics</a></li>
-              <li><a href="#">Detective</a></li>
-              <li><a href="#">Science Fiction</a></li>
-              <li><a href="#">Historical Fiction</a></li>
-            </ul>
-        </aside>
-        <footer>
-            <p>©Copyright 2021 by Alex Shevtsov. All rights reversed.</p>
-        </footer>
 	</body>
 </html>
