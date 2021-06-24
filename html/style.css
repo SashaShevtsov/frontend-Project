@@ -1,0 +1,639 @@
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+
+    width: 224px;
+    height: 725.86px;
+    margin-left: 50%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 1fr;
+    grid-gap: 32px 20px;
+    background: #E5E5E5;
+}
+
+h2.main-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: rgba(18, 18, 18, 0.89);
+
+    flex: none;
+    order: 0;
+}
+
+h3.main-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img.book-cover {
+    width: 224px;
+    height: 288px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    flex: none;
+    order: 0;
+}
+
+img.book-small-cover {
+    width: 54px;
+    height: 80px;
+    margin-right: 16px;
+
+    flex: none;
+    order: 0;
+}
+
+input[type=submit] {
+    width: 160px;
+    align-self: flex-end;
+
+    background-color: #EF3F0A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+ 
+main {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 25%
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+
+    order: 1;
+}
+
+section.main-section {
+    display: flex;
+    flex-direction: column;
+
+    flex: none;
+    margin-bottom: 10px;
+}
+
+span.article-first-sentence{
+    text-decoration-line: underline;
+}
+
+span.book-name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+span.book-author {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#article-main {
+    padding-left: 2.5%;
+}
+
+#rating-table {
+    width: 100%;
+    text-align: left;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: rgba(18, 18, 18, 0.89);
+
+    border-collapse: collapse;
+}
+
+#rating-table col.first-rate-column {
+    width: 60%;
+}
+
+#rating-table col.second-rate-column {
+    width: 15%;
+}
+
+#rating-table col.third-rate-column {
+    width: 25%;
+}
+
+#rating-table td.aligned-year {
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+#rating-table td.aligned-value {
+    vertical-align: top;
+    padding-top: 24px;
+}
+
+#rating-table-body tr:nth-child(even) {
+    background: #FFFFFF;
+}
+#rating-table-body tr:nth-child(odd) {
+    background: #F9F9F9;
+}
+
+#review {
+    height: 200px;
+    margin-bottom: 19px;
+    padding: 10px 15px;
+
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contactlogo {
+    color: #121212; 
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.article-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: rgba(18, 18, 18, 0.68);
+}
+
+.aside-header {
+    padding-left: 15.5px;
+    color: #FFFFFF;
+}
+
+.aside-book {
+    padding-left: 15.5px;
+    max-width: 80%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: rgba(18, 18, 18, 0.89);
+}
+
+.aside-news {
+    padding-left: 15.5px;
+    max-width: 80%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: rgba(18, 18, 18, 0.68);
+}
+
+.book {
+    max-width: 220px;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: 24px;
+
+    color: rgba(18, 18, 18, 0.89);
+    
+    flex: none;
+    order: 1;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.book-rate {
+    max-width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: 24px;
+
+    color: rgba(18, 18, 18, 0.89);
+    
+    flex: none;
+    order: 1;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.book-container {
+    width: 224px;
+    height: 360px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 20px;
+}
+
+.book-container-full {
+    display: flex;
+    align-content: stretch;
+}
+
+.book-rate-container {
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+}
+
+.book-row-container {
+    height: 360px;
+
+    display: flex;
+    flex-direction: row;
+
+    flex: none;
+    order: 1;
+}
+
+.booklogo {
+    color: #EF3F0A;
+    font-size: 48px;
+}
+
+.bookspace {
+    width: 68px;
+    height: 40px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+
+    letter-spacing: 0.14em;
+
+    color: #EF3F0A;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contacts-field {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    padding-left: 15px;
+}
+
+.contacts-form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 16px;
+}
+
+.last-rating-item {
+    width: 224px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    height: 20px;
+    margin: 0px 30px;
+    padding: 10px 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    flex: none;
+}
+
+.menu-item-color {
+    color: rgba(18, 18, 18, 0.89);
+}
+
+.menu-main-item-color {
+    color: #FFFFFF;
+    background: #EF3F0A;
+}
+
+.name-box {
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+
+    display: flex;
+    align-items: center;
+
+    color:white;
+    background: #EF3F0A;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+.contact-input {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.news-box {
+    width: 224px;
+    height: 156.81px;
+
+    flex: none;
+    order: 1;
+    margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #FFFFFF;
+}
+
+.rate-value-container {
+    display: flex;
+}
+
+.rating-item {
+    width: 224px;
+    height: 48px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.rating-value {
+    width: 17px;
+    height: 14px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #EF3F0A;
+}
+
+.rating-value-big {
+    width: 24px;
+    height: 21px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: rgba(18, 18, 18, 0.89);
+    padding-left: 12px;
+    padding-top: 6px;
+}
+
+
+.rating-value-container {
+    justify-self: stretch;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    padding-right: 9.5px;
+}
+
+.rectangle1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    display: flex;
+    align-items: center;
+    padding: 0% 16.5%;
+
+    background: #FFFFFF;
+}
+
+.rectangle2 {
+    width: 120px;
+    height: 50px;
+    margin-right: 160px;
+
+    order: 0;
+
+    display: flex;
+    align-items: center;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.rectangle4 {
+    width: 224px;
+    height: 537.05px;
+
+    order: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background: #FFFFFF;
+}
+
+.rectangle6 {
+    width: 224px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+
+    order: 0;
+
+    background: #EF3F0A;
+}
+
+.reviewlogo {
+    color: #ffffff; 
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.review-box {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.review-text {
+    justify-self: stretch;
+
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+
+    color: rgba(18, 18, 18, 0.68);
+}
+
+.searchlogo {
+    color: #121212; 
+    font-size: 27px;
+    margin-right: 15px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search-form {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+
+    display: flex;
+    align-items: center;
+    order: 2;
+
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 2px;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.standard-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.starlogo {
+    color: #EF3F0A;
+    font-size: 10px;
+}
+
+.starbiglogo {
+    color: #EF3F0A;
+    font-size: 24px;
+    padding-right: 8px;
+}
